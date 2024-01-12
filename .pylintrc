@@ -1,0 +1,57 @@
+[MASTER]
+# Specify a configuration file.
+rcfile=
+
+# Python code to execute, usually for sys.path manipulation such as
+# pygtk.require().
+init-hook=
+
+# Add files or directories to the blacklist. They should be base names, not paths.
+ignore=tests,
+
+# List of plugins (as comma separated values of python modules names) to load,
+# usually to register additional checkers.
+load-plugins=
+
+
+[MESSAGES CONTROL]
+# Only show these messages
+enable=
+
+# Disable the message, report, category or checker with the given id(s). You
+# can either give multiple identifiers separated by comma (,) or put this
+# option multiple times.
+disable=missing-docstring,
+        too-few-public-methods,
+        too-many-arguments,
+        too-many-locals,
+        too-many-instance-attributes,
+        too-many-branches,
+        too-many-statements,
+
+[REPORTS]
+# Set the output format. Available formats: text, parseable, colorized, msvs
+# (visual studio) and html
+output-format=text
+
+# Tells whether to display a full report or only the messages
+reports=no
+
+# Python expression which should return a note less than 10 (10 is the highest
+# note). You have access to the variables errors warning, statement which
+# respectively contain the number of errors / warnings messages and the total
+# number of statements analyzed.
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+
+[DESIGN]
+# Maximum number of parents for a class (see R0901).
+max-parents=7
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=10
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=2
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=20
