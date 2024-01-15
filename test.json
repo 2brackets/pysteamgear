@@ -1,0 +1,38 @@
+{
+    "appnews": {
+        "appid": 440,
+        "newsitems": [
+            {
+                "gid": "6300039510121017992",
+                "title": "'Save Team Fortress 2' campaign explodes after Valve DMCAs fan remake",
+                "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/6300039510121017992",
+                "is_external_url": true,
+                "author": "editor@pcgamesn.com",
+                "contents":"<img width=\"900\" height=\"507\" src=\"https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/01/team-fortress-2-dmca-valve-save-tf2-fan-remake-steam-fps-games-900x506.jpg\"/><p><strong>Team Fortress 2</strong> is back in the limelight following a DMCA takedown notice from Valve regarding a fan remake of the iconic 2007 sequel. Now that Amper Software, the independent developer behind the unfinished Source 2 remake, has revealed Valve's copyright action as its reason for canceling Team Fortress Source 2, fans are gathering on social media to express their disappointment behind a hashtag calling to \"save TF2.\"</p>\n<p><a href=\"https://www.pcgamesn.com/team-fortress-2/save-tf2\">Read the rest of the story...</a></p>\n<p>RELATED LINKS:<br />\n<a href=\"https://www.pcgamesn.com/team-fortress-2/fan-remake\">Team Fortress 2 fan remake canceled following DMCA takedown 
+from Valve</a><br />\n<a href=\"https://www.pcgamesn.com/steam-deck/team-fortress-2\">Is Team Fortress 2 Steam Deck compatible?</a><br />\n<a href=\"https://www.pcgamesn.com/team-fortress-2/steam-chart\">Team Fortress 2 is going wild on Steam after big Valve update</a></p>",
+                "feedlabel": "PCGamesN",
+                "date": 1705009263,
+                "feedname": "PCGamesN",
+                "feed_type": 0,
+                "appid": 440
+            },
+            {
+                "gid": "5510783579248378001",
+                "title":"Fan-made Team Fortress 2 remake using the Source 2 engine shuts down for good after receiving a DMCA notice from Valve",
+                "url":"https: //steamstore-a.akamaihd.net/news/externalpost/PC Gamer/5510783579248378001",
+                "is_external_url":true,
+                "author":"Andy Chalk",
+                "contents":"<img src=\"https://cdn.mos.cms.futurecdn.net/sbR7htNCBFiTC6rdpS6B9C.jpg\"/><br><br>\n                <a href=\"https://www.pcgamer.com/if-valve-wont-remake-team-fortress-2-these-modders-will/\" target=\"_blank\">Team Fortress: Source 2</a>, an ambitious fan project aiming to rebuild the venerable Team Fortress 2 in the Source 2 engine, has reached the end of the road. Amper Software, the team behind the project, said on Twitter today that it&apos;s been forced to pull the plug after receiving a DMCA takedown notice from Valve...\n                <a href=\"https://www.pcgamer.com/fan-made-team-fortress-2-remake-using-the-source-2-engine-shuts-down-for-good-after-receiving-a-dmca-notice-from-valve?utm_source=steam&utm_medium=referral\" target=\"_blank\">Read more.</a>",
+                "feedlabel":"PC Gamer",
+                "date":1704929031,
+                "feedname":"PC Gamer",
+                "feed_type":0,
+                "appid":440
+                }
+        ],
+                
+        
+        
+    "count":3509
+    }
+}

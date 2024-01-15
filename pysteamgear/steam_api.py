@@ -1,4 +1,4 @@
-from .steam_interfaces import ISteamNews
+from .steam_interfaces import ISteamNews, ISteamStore
 
 FORMATS = ['json', 'xml', 'vdf']
 
@@ -36,6 +36,7 @@ class SteamAPI():
 
         # Load all Steam api interfaces
         self.isteam_news = ISteamNews(self.config)
+        self.isteam_store = ISteamStore(self.config)
 
     def _validate_format(self, output_format: str):
         if output_format not in FORMATS:
