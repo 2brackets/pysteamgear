@@ -1,28 +1,14 @@
 from ..http_client import HttpClient
 from ..modules import SteamData
+from ..steam import Steam
 
 BAS_URL_STEAM = 'https://api.steampowered.com'
 BAS_URL_PARTNER = 'https://partner.steam-api.com'
 
 class ISteamNews():
-    """
-    A class to interact with the Steam News API.
 
-    This class provides methods to retrieve news for a specific app from the Steam News API.
-
-    Attributes:
-        config (dict): Configuration settings including API key, request format, and timeout.
-    """
-    def __init__(self, config: dict) -> None:
-        """
-        Initializes the ISteamNews object with the provided configuration.
-
-        Args:
-            config (dict): A dictionary containing configuration settings.
-        """
-        self.config = config
-
-    def get_news_for_app(self,
+    @staticmethod
+    def get_news_for_app(config: Steam,
             appid: int,
             maxlength: int = None,
             enddate: int = None,
@@ -53,13 +39,14 @@ class ISteamNews():
                 'enddate': enddate,
                 'count': count,
                 'feed': feed,
-                'format': self.config.get('format') 
+                'format': config.format
             },
             headers=None,
-            timeout=self.config['time']
+            timeout=config.timeout
         )
 
-    def get_news_for_app_authed(self,
+    @staticmethod
+    def get_news_for_app_authed(config: Steam,
             appid: int,
             maxlength: int = None,
             enddate: int = None,
@@ -93,11 +80,11 @@ class ISteamNews():
                 'enddate': enddate,
                 'count': count,
                 'feed': feed,
-                'format': self.config.get('format')
+                'format': config.format
             },
             headers={
-            'x-webapi-key': self.config.get('key')
+            'x-webapi-key': config.key
             },
-            timeout=self.config['time']
+            timeout=config.timeout
         )
     

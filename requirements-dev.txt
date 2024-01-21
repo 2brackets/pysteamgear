@@ -3,3 +3,4 @@ sphinx
 requests
 vdf
 xmltodict
+pycryptodomex

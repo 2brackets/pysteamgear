@@ -1,0 +1,1 @@
+from .item_collecter import get_extract_items_method
